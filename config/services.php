@@ -28,7 +28,7 @@ return [
     'sparkpost' => [
         'secret' => env('SPARKPOST_SECRET'),
     ],
-
+ 
     'stripe' => [
         'model' => App\User::class,
         'key' => env('STRIPE_KEY'),
