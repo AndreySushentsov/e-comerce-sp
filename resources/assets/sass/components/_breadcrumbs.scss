@@ -1,0 +1,17 @@
+.breadcrumbs{
+  padding: 20px 0;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  a,span{
+    font-size: .7rem;
+    margin-right: 5px;
+  }
+  a{
+    color: #737373;
+  }
+  span{
+    color: #333;
+  }
+}

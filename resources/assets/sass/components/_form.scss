@@ -1,0 +1,60 @@
+.form__group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  label{
+    font-size: .8rem;
+    margin-bottom: 5px;
+  }
+  input{
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  input[placeholder]{
+    font-style: italic;
+  }
+  textarea{
+    border-radius: 3px;
+    width: 95%;
+    padding: 5px 10px;
+  }
+}
+
+.form__title{
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+
+.form__address{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  input{
+    width: 85%;
+  }
+  .form__address-house, .form__address-flat{
+    width: 30%;
+  }
+}
+
+.payment-details .card-date-cvs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  input{
+    width: 30%;
+  }
+  // .form__group{
+  //   flex-grow:1;
+  // }
+}
+.form__checkbox{
+  margin-bottom: 10px;
+}
+
+@include laptop{
+  .form__address .form__group{
+    width: 100%;
+  }
+};

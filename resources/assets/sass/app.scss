@@ -1,9 +1,56 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
-@import "variables";
 
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// base
+@import "base/reset";
+@import "base/variables";
+
+
+//utils
+@import "utils/mixin";
+
+
+
+//components
+@import "components/nav-burger";
+@import "components/navigation";
+@import "components/image-gallery";
+@import "components/overlay-menu";
+@import "components/pr-card";
+@import "components/card-mini";
+@import "components/breadcrumbs";
+@import "components/button";
+@import "components/form";
+@import "components/page-title";
+@import "components/jumbotron";
+@import "components/section-title";
+@import "components/pagination";
+@import "components/coupone";
+@import "components/social";
+@import "components/search";
+@import "components/table";
+@import "components/alert";
+
+//pages
+@import "pages/products";
+@import "pages/product";
+@import "pages/cart";
+@import "pages/checkout";
+@import "pages/login";
+@import "pages/register";
+@import "pages/delivery";
+@import "pages/contacts";
+
+
+//layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/latest-section";
+@import "layout/container";
+@import "layout/same-view";
+@import "layout/news-sales-section";
+@import "layout/advantages-section";
+
+//vendor
+@import "utils/stripe";

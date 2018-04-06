@@ -1,0 +1,27 @@
+.contacts__title{
+  font-size: .9rem;
+  font-style: italic;
+  color:#d9d9d9;
+}
+.contacts__container{
+  margin-top: 20px;
+  p{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  a{
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+.contacts__form-title{
+  font-weight: bold;
+}
+.contacts__form{
+  width: 50%;
+  @include mini-tablet{
+    width: 90%;
+    margin: auto;
+  }
+}

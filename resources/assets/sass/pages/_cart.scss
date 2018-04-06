@@ -1,0 +1,126 @@
+.cart__container{
+  padding-top: 50px;
+  min-height: 200px;
+}
+.cart__title{
+  font-size: 1.3rem;
+  margin:40px 0;
+}
+.cart__item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
+  width: 50%;
+  &:first-child{
+    border-top: 1px solid #333;
+  }
+}
+.cart__img-wrapper{
+  width: 100px;
+  height: 60px;
+  overflow: hidden;
+  text-align: center;
+  img{
+    height: 100%;
+    width: auto;
+  }
+}
+.cart__item-title{
+  width: 40%;
+  text-align: center;
+}
+.cart__item-input{
+  flex-grow: 1;
+  text-align: right;
+  input{
+    width: 40px;
+  }
+}
+.cart__item-price{
+  text-align: right;
+  flex-grow: 1;
+}
+.remote-save{
+    button{
+      background: transparent;
+      border: none;
+      font-style: italic;
+      font-size: .7rem;
+      cursor: pointer;
+      transition: .2s;
+      border-radius: 3px;
+      padding: 5px;
+      &:hover{
+        background-color: #e6e6e6;
+        color:#fff;
+      }
+    }
+}
+.price-block{
+  margin: 30px 0;
+  width: 50%;
+  padding: 20px 0;
+  background: #d3d3d3;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+}
+.price-block__text{
+  width: 50%;
+  padding: 0 20px;
+  margin-right: 20px;
+  font-size: .9rem;
+}
+.subtotal, .discount{
+  span{
+    font-size: .9rem;
+  }
+}
+.total-price{
+  margin-top: 30px;
+  span{
+    font-weight: bold;
+  }
+}
+.cart__form{
+  width: 50%;
+  text-align: right;
+}
+.save-for-later__container{
+  margin-top: 50px;
+  flex-direction: column;
+  span{
+    margin-bottom: 30px;
+  }
+}
+
+
+
+@include mini-tablet{
+  .cart__item,.price-block, .price-block__buttons{
+    width: 100%;
+  }
+};
+@include laptop{
+  .cart__item, .price-block, .price-block__buttons{
+    width:70%;
+    margin: 0 auto;
+  }
+  .price-block{
+    margin: 20px auto;
+    flex-direction: column;
+  }
+  .price-block__text{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .price-block__pirces{
+    padding: 0 20px;
+  }
+  .total-price{
+    margin-top: 10px;
+  }
+}

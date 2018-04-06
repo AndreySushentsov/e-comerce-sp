@@ -1,0 +1,26 @@
+.socials{
+  a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    transition: .2s;
+    &:hover{
+      background: #d9d9d9;
+      border: 2px solid #d9d9d9;
+    }
+  }
+  i{
+    color: #fff;
+    font-size: .9rem;
+    transition: color .2s;
+    &:hover{
+      color: #333;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.btn{
+  padding: 10px 20px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+  transition:.2s;
+  &:hover{
+    background-color: #7c7c7c;
+    color: #fff;
+    border: 1px solid #7c7c7c;
+  }
+}
+.btn-success{
+  background-color: #43d994;
+  color: #fff;
+  border: 1px solid #43d994;
+  &:hover{
+    background: #16995d;
+    border: 1px solid #16995d;
+  }
+}

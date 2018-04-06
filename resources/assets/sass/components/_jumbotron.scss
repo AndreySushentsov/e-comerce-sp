@@ -1,0 +1,21 @@
+.jumbotron{
+  height: 300px;
+  background:url('/img/slide_6.jpeg');
+  background-repeat: no-repeat;
+  background-position:cover;
+  background-attachment: fixed;
+  padding:13% 0;
+  h1{
+    color: #fff;
+    font-size: 3rem;
+    margin-left: 5%;
+    width: 50%;
+    transition: .5s;
+    @include mini-tablet{
+      font-size: 2.5rem;
+    }
+    @include mobile{
+      font-size: 2rem;
+    }
+  }
+}

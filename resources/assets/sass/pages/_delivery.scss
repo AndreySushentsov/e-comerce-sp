@@ -1,0 +1,31 @@
+.dilivery__jumbotron{
+  height: 15px;
+  @include tablet{
+    height: 100px;
+  }
+}
+.delivery__container{
+  padding: 50px 0;
+}
+.delivery__title{
+  font-size: 2rem;
+  color:#333333;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.delivery__method{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  p{
+    width: 60%;
+    font-style: italic;
+    @include mini-tablet{
+      width: 95%;
+    }
+  }
+  span{
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+}
