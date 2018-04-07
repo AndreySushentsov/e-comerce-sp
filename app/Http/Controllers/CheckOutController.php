@@ -69,7 +69,7 @@ class CheckOutController extends Controller
 
           $order = $this->addToOrdersTables($request, null);
 
-          Mail::send(new OrderPlaced($order));
+          // Mail::send(new OrderPlaced($order));
 
           Cart::instance('default')->destroy();
           session()->forget('coupone');
