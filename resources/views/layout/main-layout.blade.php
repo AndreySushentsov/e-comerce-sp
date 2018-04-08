@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Спортывное питание, купить спортивное питание, купить спортивное питание с доставкой по России, купить гормон роста с доставкой по России, купить жиросжигатели с доставкой по России, гормон роста купить.">
+        <meta name="description" content="В нашем интернет-магазине, Вы можете заказать спортивное питание с доставкой в любой регон России, по дострупным ценам.">
         <link href="{{asset('css/app.css')}}" rel="stylesheet">
-        <title>e-comerce</title>
+        <title>Спортывное питание по низким ценам с доставкой по России.</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -20,7 +22,7 @@
 
       <div id="app">
         <header>
-          <a href="/" class="logo">SportPit</a>
+          <a href="/" class="logo">SportPit-365</a>
           <nav class="navigation">
             <ul>
               <li>
