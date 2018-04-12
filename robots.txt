@@ -1,0 +1,5 @@
+User-agent: *
+Crawl-delay: 1
+Host: https://sportpit-365.ru
+Disallow: /admin
+Sitemap: http://sportpit-365.ru/
