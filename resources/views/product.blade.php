@@ -11,12 +11,13 @@
       <span>{{$product->name}}</span>
     </div>
   </div>
-  <div class="product__container">
+
+  <div class="product__container" itemscope itemtype="http://schema.org/Product">
     <div class="product__img-gallery">
       <div class="image-gallery">
         <div class="image-gallery__main-img">
           <div class="img-wrapper">
-            <a href="#"><img id="gallery-img" class="active" src="{{asset('storage/'.$product->image)}}" alt="{{$product->name}}"></a>
+            <a href="#" itemprop="image"><img id="gallery-img" class="active" src="{{asset('storage/'.$product->image)}}" alt="{{$product->name}}"></a>
           </div>
         </div>
         <div class="image-gallery__small-img">
@@ -32,16 +33,21 @@
       </div>
     </div>
     <div class="product__content">
-      <div class="product__title">
+      <div class="product__title" itemprop="name">
         {{$product->name}}
       </div>
       <div class="product__descr">
         {{$product->details}}
       </div>
-      <div class="product__price">
-        {{$product->price}} p.
+      <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <div class="product__price">
+          {{$product->price}} p.
+        </div>
+        <meta itemprop="price" content={{$product->price}}>
+        <meta itemprop="priceCurrency" content="RUB">
+        <link itemprop="availability" href="http://schema.org/InStock">
       </div>
-      <p class="product__full-descr">
+      <p class="product__full-descr" itemprop="description">
         {!!$product->description!!}
       </p>
       <form class="product__form" action="{{route('cart.store')}}" method="POST">
