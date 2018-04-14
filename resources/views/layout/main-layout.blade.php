@@ -15,7 +15,7 @@
         <title>Спортивное питание по низким ценам с доставкой по России.</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
         <link href="{{asset('css/fontawesome-all.min.css')}}" rel="stylesheet">
         <!-- Styles -->
         @yield('extra-css')
