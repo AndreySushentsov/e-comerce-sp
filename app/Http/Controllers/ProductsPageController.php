@@ -16,7 +16,7 @@ class ProductsPageController extends Controller
      */
     public function index()
     {
-      $pagination = 4;
+      $pagination = 12;
 
       if(request()->category){
         $products = Product::with('categories')->whereHas('categories', function($query){
