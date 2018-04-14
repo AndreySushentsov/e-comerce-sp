@@ -48,7 +48,7 @@
             <form  action="{{route('search')}}" method="get">
               {{ csrf_field() }}
               <i class="fa fa-search"></i>
-              <input type="text" name="query" id="query" value="{{request()->input('query')}}" placeholder="Поиск">
+              <input type="text" name="query"  value="{{request()->input('query')}}" placeholder="Поиск">
             </form>
           </div>
           <div class="header__tel">
