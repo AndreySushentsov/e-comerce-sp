@@ -45,9 +45,10 @@
             </ul>
           </nav>
           <div class="search__container">
-            <form class="" action="{{route('search')}}" value="{{request()->input('query')}}" method="get">
+            <form  action="{{route('search')}}" method="get">
+              {{ csrf_field() }}
               <i class="fa fa-search"></i>
-              <input type="text" name="query" id="query" value="" placeholder="Поиск">
+              <input type="text" name="query" id="query" value="{{request()->input('query')}}" placeholder="Поиск">
             </form>
           </div>
           <div class="header__tel">
@@ -78,7 +79,7 @@
           </div>
 
           <!-- burger menu -->
-          <a herf="#" class="nav_burger" id="nav-burger">
+          <a href="#" class="nav_burger" id="nav-burger">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>

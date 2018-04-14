@@ -1,8 +1,9 @@
 <div class="overlay-menu__container" id="overlay-menu">
   <div class="overlay-menu__search">
-    <form class="" action="{{route('search')}}" value="{{request()->input('query')}}" method="get">
+    <form  action="{{route('search')}}" method="get">
+      {{ csrf_field() }}
       <i class="fa fa-search"></i>
-      <input type="text" name="query" id="query" value="" placeholder="Поиск">
+      <input type="text" name="query" id="query" value="{{request()->input('query')}}" placeholder="Поиск">
     </form>
   </div>
   <nav class="overlay-menu__navigation">
