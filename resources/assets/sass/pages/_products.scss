@@ -16,8 +16,12 @@
   };
 }
 .products__content{
-  flex-grow: 4;
+  // flex-grow: 4;
+  width: 75%;
   margin-left: 20px;
+  @include tablet{
+    width:100%;
+  };
 }
 .products__menu-title{
   font-weight: bold;
