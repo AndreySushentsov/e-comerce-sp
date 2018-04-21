@@ -33,9 +33,9 @@
       </div>
     </div>
     <div class="product__content">
-      <div class="product__title" itemprop="name">
+      <h1 class="product__title" itemprop="name">
         {{$product->name}}
-      </div>
+      </h1>
       <div class="product__descr">
         {{$product->details}}
       </div>
