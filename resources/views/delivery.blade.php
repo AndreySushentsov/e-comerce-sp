@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="jumbotron dilivery__jumbotron">
-  <h1>Официальный дилер ASP.</h1>
+  <h1>Здесь может располагаться баннер вашего клуба или бренда.</h1>
 </div>
 <div class="container delivery__container">
   <div class="breadcrumbs">

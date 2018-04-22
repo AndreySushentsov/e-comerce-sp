@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="jumbotron dilivery__jumbotron">
-  <h1>Пратнер клуба Amalgamma.</h1>
+  <h1>Здесь может располагаться баннер вашего клуба или бренда.</h1>
 </div>
 <div class="container">
   <div class="breadcrumbs">
