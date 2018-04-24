@@ -69,7 +69,7 @@
       @foreach ($sameView as $product)
           <div class="card-mini">
             <div class="card-mini__img-wrapper">
-              <a href="{{route('product.show', $product->slug)}}"><img src="/img/bcaa_1.jpg" alt="bcaa"></a>
+              <a href="{{route('product.show', $product->slug)}}"><img src="{{asset('storage/'.$product->image)}}" alt="{{$product->name}}"></a>
             </div>
             <div class="card-mini__content">
               <div class="card-mini__title">
