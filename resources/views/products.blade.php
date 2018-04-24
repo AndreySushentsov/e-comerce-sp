@@ -11,7 +11,7 @@
   </div>
   <div class="products__container">
     <div class="products__sidebar">
-      <div class="products__menu-title">Категории товаров</div>
+      <div class="products__menu-title">Категории товаров.</div>
       <ul class="products__menu-list">
         @foreach($categories as $category)
           <li class="products__menu-item {{ request()->category == $category->slug ? 'active' : '' }}">
