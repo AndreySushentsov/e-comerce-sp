@@ -33,6 +33,13 @@ class Product extends Model
     //   ];
 
 
+    public function producers()
+    {
+      return $this->belongsToMany('App\Producer');
+      // return $this->hasOne('App\Producer');
+    }
+
+
     public function categories()
     {
       return $this->belongsToMany('App\Category');

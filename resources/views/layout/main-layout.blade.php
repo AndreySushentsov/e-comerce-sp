@@ -57,8 +57,8 @@
             </form>
           </div>
           <div class="header__tel">
-            <span>тел: </span>
-            <a href="tel:89630424243" title="Контактный телефон"> 89630424243</a>
+            <span><i class="fas fa-phone-volume"></i></span>
+            <a href="tel:89630424243" title="Контактный телефон"> 8(963)042-42-43</a>
           </div>
 
 
@@ -123,7 +123,7 @@
             </div>
             <div class="footer__contacts">
               <span>тел: </span>
-              <a href="tel:89630424243" class="footer__tel" title="Контактный телефон"> 89630424243 </a>
+              <a href="tel:89630424243" class="footer__tel" title="Контактный телефон"> 8(963)042-42-43 </a>
               <div class="footer__adress">
                 <span>г. Санкт-Петербург пр. Лиговский 108</span>
               </div>
