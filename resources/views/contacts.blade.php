@@ -21,10 +21,6 @@
       Телефон:
     </div>
     <p>8(963)042 42 43</p>
-    <div class="contacts__title">
-      Почта:
-    </div>
-    <a href="mailto:p1oneer8527@gmail.com">p1oneer8527@gmail.com</a>
     <div class="contacts__form-title">
       Форма для ваших вопросов и предложений
     </div>
