@@ -2,6 +2,11 @@
 @section('extra-css')
   <!-- <script src="https://js.stripe.com/v3/"></script> -->
 @endsection
+
+@section('title')
+ Оформить заказ
+@endsection
+
 @section('content')
 <div class="container">
   <div class="page__title">

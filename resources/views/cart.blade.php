@@ -1,5 +1,9 @@
 @extends('layout.main-layout')
 
+@section('title')
+ Корзина товаров
+@endsection
+
 @section('content')
 <div class="container cart__container">
   <div class="breadcrumbs">

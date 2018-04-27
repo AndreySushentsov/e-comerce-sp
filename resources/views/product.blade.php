@@ -1,5 +1,9 @@
 @extends('layout.main-layout')
 
+@section('title')
+ Купить {{$product->name}}
+@endsection
+
 @section('content')
 <div class="container">
   <div class="breadcrumbs">

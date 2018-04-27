@@ -1,5 +1,9 @@
 @extends('layout.main-layout')
 
+@section('title')
+ Спортивное питание по низким ценам с доставкой по России
+@endsection
+
 @section('content')
 <div class="jumbotron">
   <h1>Спортивное питание по самым низким ценам.</h1>

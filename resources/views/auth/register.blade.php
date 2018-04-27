@@ -1,5 +1,9 @@
 @extends('layout.main-layout')
 
+@section('title')
+ Страница регистрации
+@endsection
+
 @section('content')
 <div class="container">
                 <form class="form login__form" method="POST" action="{{ route('register') }}">

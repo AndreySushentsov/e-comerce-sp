@@ -1,5 +1,9 @@
 @extends('layout.main-layout')
 
+@section('title')
+ Доставка
+@endsection
+
 @section('content')
 <div class="jumbotron dilivery__jumbotron">
   <h1>Здесь может располагаться баннер вашего клуба или бренда.</h1>

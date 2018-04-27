@@ -1,5 +1,9 @@
 @extends('layout.main-layout')
 
+@section('title')
+ Страница авторизации
+@endsection
+
 @section('content')
 <div class="container">
   <form class="form login__form" method="POST" action="{{ route('login') }}">

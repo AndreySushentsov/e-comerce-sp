@@ -1,5 +1,9 @@
 @extends('layout.main-layout')
 
+@section('title')
+ Рзультаты поиска по запросу "{{request()->input('query')}}"
+@endsection
+
 @section('content')
 <div class="container">
   <div class="breadcrumbs">
