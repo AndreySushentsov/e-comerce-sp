@@ -17,7 +17,7 @@
         <meta name="keywords" content="Спортивное питание с доставкой по России, купить спортивное питание, купить спортивное питание с доставкой по России, купить гормон роста с доставкой по России, купить жиросжигатели с доставкой по России, гормон роста купить.">
         <meta name="description" content="В нашем интернет-магазине, Вы можете заказать спортивное питание с доставкой в любой регон России, по дострупным ценам.">
         <link href="{{asset('css/app.css')}}" rel="stylesheet">
-        <title>Спортивное питание по низким ценам с доставкой по России.</title>
+        <title>@yield('title')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
@@ -57,8 +57,8 @@
             </form>
           </div>
           <div class="header__tel">
-            <span>тел: </span>
-            <a href="tel:89630424243" title="Контактный телефон"> 89630424243</a>
+            <span><i class="fas fa-phone-volume"></i></span>
+            <a href="tel:89630424243" title="Контактный телефон"> 8(963)042-42-43</a>
           </div>
 
 
@@ -123,7 +123,7 @@
             </div>
             <div class="footer__contacts">
               <span>тел: </span>
-              <a href="tel:89630424243" class="footer__tel" title="Контактный телефон"> 89630424243 </a>
+              <a href="tel:89630424243" class="footer__tel" title="Контактный телефон"> 8(963)042-42-43 </a>
               <div class="footer__adress">
                 <span>г. Санкт-Петербург пр. Лиговский 108</span>
               </div>
