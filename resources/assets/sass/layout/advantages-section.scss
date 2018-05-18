@@ -37,7 +37,8 @@
 }
 .advantages__item-title{
   text-align: center;
-  font-weight: bold;
+  // font-weight: bold;
+  font-style: italic;
   &:before{
     display: block;
     width: 20%;
@@ -47,5 +48,12 @@
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 2px;
   }
+}
+
+.advantages__title{
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: block;
 }

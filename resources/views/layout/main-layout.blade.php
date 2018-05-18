@@ -144,7 +144,8 @@
       <script type="text/javascript">
         const burger = document.querySelector('#nav-burger');
         const overlayMenu = document.querySelector('#overlay-menu');
-        burger.addEventListener('click', function() {
+        burger.addEventListener('click', function(e) {
+          e.preventDefault();
           if(overlayMenu.style.left == "-70%"){
             burger.classList.add('change');
             overlayMenu.style.left = "0";
